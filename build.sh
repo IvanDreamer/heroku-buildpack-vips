@@ -36,11 +36,11 @@ function putS3 {
 }
 
 # These should be set from the outside. A git version and heroku/travis respectively
-if [ -z "$VERSION" ]
+if [ -z "$BUILD_VIPS_VERSION" ]
 then
     VERSION="unknown"
 fi
-if [ -z "$TARGET" ]
+if [ -z "$BUILD_VIPS_TARGET" ]
 then
     TARGET="unknown"
 fi
