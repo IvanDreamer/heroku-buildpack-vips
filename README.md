@@ -24,4 +24,6 @@ https://github.com/automata/heroku-buildpack-vips.git
 [This](./build.sh) is the script used to build vips on `heroku run bash`.
 
 @IvanDreamer: 
+```
 cat build.sh | heroku run bash -s free -a heroku-app
+```
